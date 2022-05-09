@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Patatas.com</title>
+    <style>
+        *:before,
+        *:after {
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        .container {
+            padding: 1em 0;
+            float: left;
+            width: 50%;
+        }
+        
+        @media screen and (max-width: 640px) {
+            .container {
+                display: block;
+                width: 100%;
+            }
+        }
+        
+        @media screen and (min-width: 900px) {
+            .container {
+                width: 33.33333%;
+            }
+        }
+        
+        .content {
+            position: relative;
+            width: 90%;
+            max-width: 400px;
+            max-height: 450px;
+            margin: auto;
+            overflow: hidden;
+        }
+        
+        .content .content-overlay {
+            background: rgba(0, 0, 0, 0.7);
+            position: absolute;
+            height: 99%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            opacity: 0;
+            -webkit-transition: all 0.4s ease-in-out 0s;
+            -moz-transition: all 0.4s ease-in-out 0s;
+            transition: all 0.4s ease-in-out 0s;
+        }
+        
+        .content:hover .content-overlay {
+            opacity: 1;
+        }
+        
+        .content-image {
+            width: 90%;
+        }
+        
+        .content-details {
+            position: absolute;
+            text-align: center;
+            padding-left: 1em;
+            padding-right: 1em;
+            width: 100%;
+            top: 50%;
+            left: 50%;
+            opacity: 0;
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            -webkit-transition: all 0.3s ease-in-out 0s;
+            -moz-transition: all 0.3s ease-in-out 0s;
+            transition: all 0.3s ease-in-out 0s;
+        }
+        
+        .content:hover .content-details {
+            top: 50%;
+            left: 50%;
+            opacity: 1;
+        }
+        
+        .content-details h3 {
+            color: #fff;
+            font-weight: 500;
+            letter-spacing: 0.15em;
+            margin-bottom: 0.5em;
+            text-transform: uppercase;
+        }
+        
+        .content-details p {
+            color: #fff;
+            font-size: 0.8em;
+        }
+        
+        .fadeIn-bottom {
+            top: 80%;
+        }
+        
+        .fadeIn-top {
+            top: 20%;
+        }
+        
+        .fadeIn-left {
+            left: 20%;
+        }
+        
+        .fadeIn-right {
+            left: 80%;
+        }
+    </style>
+</head>
+
+
+<body style="background-color: rgb(255, 255, 255);">
+    <a href="index.html" rel="nofollow">
+        <img style="width: 150px;height: 100px;" src="imagenes/lay's copia.png" />
+    </a>
+    <br>
+    <br>
+
+    <div class="container">
+        <h3 class="title"></h3>
+        <div class="content">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="imagenes/1.png">
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">PAPAS DE XOCOLATE</h3>
+                <p class="content-text">Ricas ricas si te gusta el dulce; a 1,50€ señores</p>
+            </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3 class="title"></h3>
+        <div class="content">
+
+            <div class="content-overlay"></div>
+            <img class="content-image" src="imagenes/2.png">
+            <div class="content-details fadeIn-top">
+                <h3>PAPAS DE XORIZO</h3>
+                <p>Genial acompañante para la comia de tu pare el karnizero tu sabes</p>
+            </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3 class="title"></h3>
+        <div class="content">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="imagenes/5.png">
+            <div class="content-details fadeIn-left">
+                <h3>PAPAS DE XILI Y LIMA</h3>
+                <p>Pa que engañar esto tiene que dar asco no lo compreis</p>
+            </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3 class="title"></h3>
+        <div class="content">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="imagenes/bolsa-trufa.png">
+            <div class="content-details fadeIn-right">
+                <h3>PAPAS DE TRUFILLAS</h3>
+                <p>Esto te lo recomiendo sii eres una gosolilla y te gusta el dulce muakk</p>
+            </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3 class="title"></h3>
+        <div class="content">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="imagenes/huevo.png">
+            <div class="content-details fadeIn-top fadeIn-left">
+                <h3>PAPAS DE HUEVOS FRITOS</h3>
+                <p>Te apetecen un par de huevos y no tienes a mano? Compra lays coño</p>
+            </div>
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <h3 class="title"></h3>
+        <div class="content">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="imagenes/limon.png">
+            <div class="content-details fadeIn-top fadeIn-right">
+                <h3>PAPAS DE LIMONSICO</h3>
+                <p>Para la gente amarga, comete un pal de papas y se te eriza el hozico.</p>
+            </div>
+            </a>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
